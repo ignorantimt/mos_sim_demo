@@ -58,19 +58,19 @@ def open_main_window():
     speed.grid(row=1, column=1)
     speed.insert(0, '0.0')
 
-    target_x_label = ttk.Label(motion_frame, text="目标X位置:", font=demo_font)
+    target_x_label = ttk.Label(motion_frame, text="目标X位置[m]:", font=demo_font)
     target_x_label.grid(row=2, column=0, sticky=tk.W)
     target_x = ttk.Entry(motion_frame, font=demo_font)
     target_x.grid(row=2, column=1)
     target_x.insert(0, '1.0')
 
-    target_y_label = ttk.Label(motion_frame, text="目标Y位置:", font=demo_font)
+    target_y_label = ttk.Label(motion_frame, text="目标Y位置[m]:", font=demo_font)
     target_y_label.grid(row=3, column=0, sticky=tk.W)
     target_y = ttk.Entry(motion_frame, font=demo_font)
     target_y.grid(row=3, column=1)
     target_y.insert(0, '0.0')
 
-    target_theta_label = ttk.Label(motion_frame, text="目标θ位置:", font=demo_font)
+    target_theta_label = ttk.Label(motion_frame, text="目标θ位置[rad]:", font=demo_font)
     target_theta_label.grid(row=4, column=0, sticky=tk.W)
     target_theta = ttk.Entry(motion_frame, font=demo_font)
     target_theta.grid(row=4, column=1)
